@@ -1,0 +1,17 @@
+Sub Principal()
+
+Call BorrarArchivosPPTX
+Call ExtraerDatosTP
+Call CruzarDatos
+Call CruceAccidentalidad
+Call CopiarDiapositivasComoImagenes
+
+
+Call ConvertPPTXtoJPG
+Call ConvertPPTXtoMP4
+
+Call TraspasoArchivos
+
+End Sub
+
+
